@@ -22,6 +22,7 @@ class Grupo:
         
         else:
             
+            lista.append(alumno)
             self.listadoAlumnos = self.listadoAlumnos + lista
         
 
