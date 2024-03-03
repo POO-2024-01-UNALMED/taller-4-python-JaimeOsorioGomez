@@ -27,7 +27,7 @@ class Grupo:
         
 
     def __str__(self):
-        c = f"Grupo de estudiantes :{self._grupo}"
+        c = f"Grupo de estudiantes: {self._grupo}"
         return c
 
     @ classmethod
