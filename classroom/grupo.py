@@ -3,7 +3,7 @@ from classroom.asignatura import Asignatura
 class Grupo:
     grado = 12
 
-    def __init__(self,grupo="grupo ordinado",asignaturas = [], estudiantes = []):
+    def __init__(self,grupo="grupo predeterminado",asignaturas = [], estudiantes = []):
         self._grupo = grupo
         self._asignaturas = asignaturas
         self.listadoAlumnos = estudiantes
@@ -21,7 +21,7 @@ class Grupo:
         self.listadoAlumnos = self.listadoAlumnos + lista
 
     def __str__(self):
-        c = "Grupo de estudiantes : grupo predeterminado"
+        c = f"Grupo de estudiantes :{self._grupo}"
         return c
 
     @ classmethod
